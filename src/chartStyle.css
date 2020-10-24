@@ -1,0 +1,86 @@
+.default-color0.chart-series-line { -fx-stroke: #00adb5; }
+.default-color0.chart-line-symbol { -fx-background-color: #00adb5, black; }
+
+.default-color0.chart-pie { -fx-pie-color: #23c7bf; }
+.default-color1.chart-pie { -fx-pie-color: rgb(17, 4, 136); }
+.default-color2.chart-pie { -fx-pie-color: rgb(55, 0, 255); }
+.default-color3.chart-pie { -fx-pie-color: rgb(0, 101, 252); }
+.default-color4.chart-pie { -fx-pie-color: #5385d1; }
+.default-color5.chart-pie { -fx-pie-color: rgb(43, 182, 129); }
+.default-color6.chart-pie { -fx-pie-color: rgb(62, 168, 230); }
+.default-color7.chart-pie { -fx-pie-color: rgb(13, 153, 130); }
+
+.axis-label {
+  -fx-text-fill: #bbe1fa;
+  -fx-font-size: 15;
+}
+.axis {
+    -fx-tick-label-fill: #00fff5;
+    -fx-font-size: 20;
+}
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+   -fx-font-size: 20;
+   -fx-text-fill: #ffffff;
+}
+.chart-legend-item-symbol{
+   -fx-background-radius: 2;
+}
+.chart-legend-item{
+    -fx-text-fill: #bbe1fa;
+}
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+
+
+
+.chart-pie-label {
+    -fx-fill: #00fff5;
+    -fx-font-size: 10;
+}
+.chart-pie-label-line {
+    -fx-stroke: #00adb5;
+    -fx-fill: #00adb5;
+    -fx-label-line-length: 1;
+    -fx-effect: null;
+}
+.chart-pie {
+    -fx-border-width: 0px;
+}
+
+
+
+
+.table-row-cell{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.table-view .filler{
+    -fx-background-color: #121212;
+}
+.table-view .table-cell{
+    -fx-text-fill: #bb86fc;
+}
+
