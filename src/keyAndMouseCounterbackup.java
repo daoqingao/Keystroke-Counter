@@ -36,6 +36,7 @@ public class keyAndMouseCounterbackup implements NativeKeyListener,Serializable,
             readingCountingObj();
             GlobalScreen.registerNativeHook();
         } catch (Exception e) {
+
             e.printStackTrace();
             initialWritingObj();
             readingCountingObj();
@@ -232,8 +233,6 @@ public class keyAndMouseCounterbackup implements NativeKeyListener,Serializable,
         initialFreeDiskSpace =currentDiskSize;
         computerDataCounter.put("upTime",computerDataCounter.get("upTime")+(new Date().getTime()-initialTime.getTime()));
         initialTime=new Date();
-//        OperatingSystemMXBean operatingSystemMXBean = (com.sun.management.OperatingSystemMXBean)ManagementFactory.getOperatingSystemMXBean();
-//        System.out.println("cpu usage" +operatingSystemMXBean.getSystemCpuLoad());
     }
     public static Map<String, Integer> getKeyCounter() {
         return keyCounter;

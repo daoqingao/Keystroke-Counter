@@ -18,6 +18,7 @@ public class counterStorage implements Serializable,Cloneable {
         computerDataCounter.put("upTime", (long) 0);
         computerDataCounter.put("write", (long) 0);
         computerDataCounter.put("delete", (long) 0);
+
     }
     public counterStorage(Map<String,Integer> a,Map<Integer,Integer> b,Map<String,Long> c)
     {
